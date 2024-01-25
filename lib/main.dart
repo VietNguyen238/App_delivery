@@ -14,13 +14,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'App giao hang',
+      title: 'App gia pha',
       theme: ThemeData(
           fontFamily: 'Poppins',
           scaffoldBackgroundColor: AppColors.white,
           brightness: Brightness.light),
       routes: AppRoutes.pages,
-      initialRoute: AppRoutes.spl,
+      initialRoute: AppRoutes.splashScreen,
     );
   }
 }
